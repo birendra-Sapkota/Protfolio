@@ -1,13 +1,14 @@
 .introduction{
     display: flex;
     height: 77vh;
-    margin-top: 6rem;
+    margin-top: 8rem;
 }
 
 .intro-left{
     display: flex;
     position: relative;
     flex: 1;
+    margin-top: -1rem;
     flex-direction: column ; 
     gap: 2rem;  
 }
@@ -68,11 +69,32 @@
 }
 
 
-
 .intro-right>:nth-child(1){
-    transform: scale(1.2);
+    transform: scale(1.15);
     top: -3rem;
-    left: 7%;
- 
+    left: 15%;
+    border-bottom: 1px solid var(--blue);
+    border-radius: 24%;
+    
+}
+.intro-right>:nth-child(2){
+   transform: scale(0.6);
+    top: -19%;
+    left: -25%;
+    border-radius: 50%;
+    padding: 0;
+}
+
+
+.blur-background{
+    position: absolute;
+    width: 22rem;
+    height: 14rem;
+    border-radius: 50%;
+    background: #edd0ff;
+    filter: blur(80px);
+    z-index: -9;
+    top: -18%;
+    left: 56%;
 }
 

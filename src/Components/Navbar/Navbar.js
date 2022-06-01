@@ -17,7 +17,7 @@ return(
                 <li>Protfolio</li>
                 <li>Testimonials</li>
                 <button className='button nav-button'>
-                Contact Me
+                Contact
             </button>
             </ul>
  
