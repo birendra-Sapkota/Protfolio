@@ -1,0 +1,53 @@
+.nav-wrapper{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-left{
+flex: 1;
+align-items: center;
+display: flex;
+gap: 2rem;
+}
+
+.nav-logo{
+font-size: 1.3rem;
+font-weight: bold;
+}
+
+.nav-right{
+display: flex;
+flex: 1;
+align-items: center;
+justify-content: center;
+font-weight: 400;
+}
+
+.nav-list{
+    flex:10;
+}
+
+.nav-list>ul{
+    display: flex;
+    gap: 2.5rem;
+    text-decoration: none;
+    text-align: center;
+    margin-right: 4rem;
+    list-style-type: none;
+    align-items: center;
+}
+
+.nav-list>ul>li:hover{
+    cursor: pointer;
+    color: var(--blue);
+}
+
+.nav-button{
+    flex: 2;
+}
+
+.nav-button:hover{
+    flex: 2;
+}
+
