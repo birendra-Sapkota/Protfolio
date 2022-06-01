@@ -1,0 +1,61 @@
+.cardview {
+  width: 12rem;
+  height: 16rem;
+  position: absolute;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.26);
+  border: 7px solid var(--blueCard);
+  box-shadow: var(--boxShadow);
+  border-radius: 20px;
+  padding: -2px 26px 2rem 26px;
+}
+
+.cardview > img {
+  transform: scale(0.5);
+  margin-bottom: -1rem;
+  margin-top: -1rem;
+}
+
+.heading {
+  font-size: 26px;
+  text-align: center;
+  margin-bottom: 1rem;
+  margin-top: -1rem;
+  text-decoration: underline;
+}
+.header>h1{
+    font-weight: 500;
+}
+.listitems {
+  margin-left: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  text-align: center;
+  padding-right:10px;
+  margin-bottom: 1rem;
+}
+
+.listitems > span {
+  font-size: 14px;
+}
+
+.card-button{
+    background: #ffffff;
+    box-shadow: 0px 19px 60px rgba(0, 0, 0, 0.08);
+    border-radius: 7px;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    color: #5290FD;
+    
+
+}
+
+.card-button:hover{
+    cursor: pointer;
+    color: white;
+    background-color: #5290FD;
+   
+}
+

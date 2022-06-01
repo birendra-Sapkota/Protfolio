@@ -1,0 +1,98 @@
+.Aboutme {
+  padding: 0 3rem 0 3rem;
+  display: flex;
+  height: 30rem;
+  margin-bottom: 8rem;
+  margin-top: 5rem;
+}
+
+.left-side {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  position: relative;
+  
+}
+
+.left-side > :nth-child(1) {
+  color: var(--black);
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.left-side > :nth-child(2) {
+  color: var(--blue);
+  font-size: 14px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.left-side > :nth-child(3) {
+  color: var(--black);
+  font-size: 18px;
+  margin-top: 2rem;
+  line-height: 2.5rem;
+  margin-bottom: 2rem;
+  font-weight: bold;
+}
+
+.abt-btn-wrapper{
+    display: flex;
+}
+
+.about-downloadcv-button {
+  width: 10rem;
+  height: 2rem;
+  margin-top: 1rem;
+}
+.about-hire-button{
+    width: 10rem;
+    height: 2rem;
+    margin-top: 1rem;
+    margin-left: 2rem;
+  
+    background: linear-gradient(180deg, #53cf6e 26.71%, #64d46d 99.36%);
+  box-shadow: 0px 20px 24px 3px rgba(20, 124, 20, 0.45);
+  
+}
+
+.about-hire-button:hover{
+    color: var(--black);
+    background: white;
+    bottom: 1px solid var(--blue);
+  }
+
+.right-side {
+  display: flex;
+  position: relative;
+  flex: 1;
+}
+
+.right-side>*{
+  position: absolute;
+}
+
+.about-blur-background1{
+  position: absolute;
+  width: 22rem;
+  height: 14rem;
+  border-radius: 50%;
+  background: #ABF1FF94;
+  filter: blur(90px);
+  z-index: -9;
+  top: 18rem;
+  left: -13rem;
+}
+
+.about-blur-background2{
+  position: absolute;
+  width: 22rem;
+  height: 14rem;
+  border-radius: 50%;
+  background: var(--purple);
+  filter: blur(90px);
+  z-index: -9;
+  top: 3rem;
+  left: 14rem;
+}
